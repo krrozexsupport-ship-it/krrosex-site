@@ -1,0 +1,855 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KRRoseX - Master English &amp; Earn Real Rewards Globally</title>
+  <meta name="description" content="Level up your English grammar, expand vocabulary, conquer speaking drills, hit your 4-hour daily streak, and redeem verified payouts via UPI, Google Play, Apple, Amazon, and Starbucks with KRRoseX.">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" href="assets/logo.png">
+</head>
+<body>
+
+  <!-- Ambient Glow Backgrounds -->
+  <div class="ambient-glow glow-top-left"></div>
+  <div class="ambient-glow glow-bottom-right"></div>
+  <div class="ambient-glow glow-center"></div>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="container nav-container">
+      <a href="index.html" class="logo-wrapper">
+        <img src="assets/logo.png" alt="KRRoseX Logo" class="logo-img">
+        <span class="logo-text">ROSE<span>X</span></span>
+      </a>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#features">Features</a></li>
+        <li><a href="#calculator">Calculator</a></li>
+        <li><a href="#rewards">Rewards</a></li>
+        <li><a href="#leaderboard">Leaderboard</a></li>
+        <li><a href="#how-it-works">How It Works</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="privacy-policy.html">Privacy Policy</a></li>
+        <li><a href="terms.html">Terms</a></li>
+        <li><a href="contact.html">Support</a></li>
+      </ul>
+
+      <div class="nav-cta">
+        <a href="#download" class="btn-primary">Download App</a>
+        <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle Navigation">☰</button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Live Marquee Ticker -->
+  <section class="marquee-section">
+    <div class="marquee-wrapper">
+      <div class="marquee-item">
+        <span class="flag">🇮🇳</span>
+        <span class="payout-user">Rahul V.</span>
+        <span class="payout-amount">₹ 100</span>
+        <span class="payout-method">via UPI Transfer</span>
+      </div>
+      <div class="marquee-item">
+        <span class="flag">🇺🇸</span>
+        <span class="payout-user">Samantha P.</span>
+        <span class="payout-amount">$ 25</span>
+        <span class="payout-method">via Google Play Gift Card</span>
+      </div>
+      <div class="marquee-item">
+        <span class="flag">🇨🇦</span>
+        <span class="payout-user">Liam K.</span>
+        <span class="payout-amount">$ 20</span>
+        <span class="payout-method">via Apple Gift Card</span>
+      </div>
+      <div class="marquee-item">
+        <span class="flag">🇬🇧</span>
+        <span class="payout-user">Oliver S.</span>
+        <span class="payout-amount">£ 10</span>
+        <span class="payout-method">via Amazon UK Voucher</span>
+      </div>
+      <div class="marquee-item">
+        <span class="flag">🇮🇳</span>
+        <span class="payout-user">Pooja D.</span>
+        <span class="payout-amount">₹ 50</span>
+        <span class="payout-method">via Flipkart Gift Card</span>
+      </div>
+      <div class="marquee-item">
+        <span class="flag">🇦🇺</span>
+        <span class="payout-user">Chloe M.</span>
+        <span class="payout-amount">$ 15</span>
+        <span class="payout-method">via Starbucks Gift Card</span>
+      </div>
+      <div class="marquee-item">
+        <span class="flag">🇩🇪</span>
+        <span class="payout-user">Lukas W.</span>
+        <span class="payout-amount">€ 25</span>
+        <span class="payout-method">via Amazon EU</span>
+      </div>
+      <div class="marquee-item">
+        <span class="flag">🇯🇵</span>
+        <span class="payout-user">Kenji T.</span>
+        <span class="payout-amount">¥ 1,500</span>
+        <span class="payout-method">via Amazon Japan</span>
+      </div>
+      <div class="marquee-item">
+        <span class="flag">🇰🇷</span>
+        <span class="payout-user">Min-jun K.</span>
+        <span class="payout-amount">₩ 13,000</span>
+        <span class="payout-method">via Amazon Korea</span>
+      </div>
+      <div class="marquee-item">
+        <span class="flag">🇦🇪</span>
+        <span class="payout-user">Zayd H.</span>
+        <span class="payout-amount">35 AED</span>
+        <span class="payout-method">via Amazon UAE</span>
+      </div>
+      <!-- Duplicate set for seamless continuous marquee loop -->
+      <div class="marquee-item">
+        <span class="flag">🇮🇳</span>
+        <span class="payout-user">Rahul V.</span>
+        <span class="payout-amount">₹ 100</span>
+        <span class="payout-method">via UPI Transfer</span>
+      </div>
+      <div class="marquee-item">
+        <span class="flag">🇺🇸</span>
+        <span class="payout-user">Samantha P.</span>
+        <span class="payout-amount">$ 25</span>
+        <span class="payout-method">via Google Play Gift Card</span>
+      </div>
+      <div class="marquee-item">
+        <span class="flag">🇨🇦</span>
+        <span class="payout-user">Liam K.</span>
+        <span class="payout-amount">$ 20</span>
+        <span class="payout-method">via Apple Gift Card</span>
+      </div>
+      <div class="marquee-item">
+        <span class="flag">🇬🇧</span>
+        <span class="payout-user">Oliver S.</span>
+        <span class="payout-amount">£ 10</span>
+        <span class="payout-method">via Amazon UK Voucher</span>
+      </div>
+      <div class="marquee-item">
+        <span class="flag">🇮🇳</span>
+        <span class="payout-user">Pooja D.</span>
+        <span class="payout-amount">₹ 50</span>
+        <span class="payout-method">via Flipkart Gift Card</span>
+      </div>
+      <div class="marquee-item">
+        <span class="flag">🇦🇺</span>
+        <span class="payout-user">Chloe M.</span>
+        <span class="payout-amount">$ 15</span>
+        <span class="payout-method">via Starbucks Gift Card</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container hero-grid">
+      <div class="hero-content">
+        <div class="hero-badge">
+          <img src="assets/roze_coin.png" alt="Coin Icon">
+          <span>First Login Bonus: Claim 100 Free Coins</span>
+        </div>
+
+        <h1 class="hero-title">
+          Learn English.<br>
+          Master Quizzes.<br>
+          <span class="gradient-text">Earn Real Rewards.</span>
+        </h1>
+
+        <p class="hero-desc">
+          Accelerate your fluency with interactive grammar challenges, conversational speaking practice, and science-backed vocabulary drills. Turn your daily 4-hour learning streak into real gift cards and instant wallet payouts.
+        </p>
+
+        <div class="hero-cta" id="download">
+          <a href="#" class="btn-primary">
+            <span>📥 Download on Google Play</span>
+          </a>
+          <a href="#calculator" class="btn-secondary">
+            <span>🧮 Calculate Your Earnings</span>
+          </a>
+        </div>
+
+        <div class="hero-stats">
+          <div class="stat-item">
+            <h3>50,000+</h3>
+            <p>Active Learners</p>
+          </div>
+          <div class="stat-item">
+            <h3>100%</h3>
+            <p>Verified Payouts</p>
+          </div>
+          <div class="stat-item">
+            <h3>15+</h3>
+            <p>Global Regions</p>
+          </div>
+          <div class="stat-item">
+            <h3>4.8 ★</h3>
+            <p>Play Store Rating</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- App Preview Graphic -->
+      <div class="hero-phone-wrap">
+        <div class="phone-card">
+          <div class="phone-screen">
+            <div class="phone-header">
+              <div class="phone-user">
+                <img src="assets/p1.webp" alt="User Profile Avatar" class="phone-avatar">
+                <div>
+                  <div class="phone-username">Alex Learner 🇺🇸</div>
+                  <small style="color: #8E8EA0; font-size: 11px;">Level 14 • Fluent Scholar</small>
+                </div>
+              </div>
+              <div class="phone-wallet-pill">
+                <img src="assets/roze_coin.png" alt="Coin">
+                <span>35,400</span>
+              </div>
+            </div>
+
+            <div class="phone-streak-banner">
+              <img src="assets/fire_ic.png" alt="Streak Fire">
+              <div>
+                <div style="font-weight: 800; font-size: 14px; color: #FFF;">4-Hour Goal • 100%</div>
+                <div style="color: #FFD580; font-size: 12px; font-weight: 600;">Daily Streak Active: 14 Days 🔥</div>
+              </div>
+            </div>
+
+            <div class="phone-quiz-card">
+              <span style="font-size: 11px; color: var(--primary); font-weight: 800; text-transform: uppercase; letter-spacing: 0.5px;">Interactive Challenge</span>
+              <p style="font-size: 13px; font-weight: 600; margin: 8px 0 10px;">Select the correct synonym for "Benevolent":</p>
+              <div class="quiz-option" id="interactiveQuizOption">
+                👉 Click Me: Kind &amp; Generous (+50 Coins)
+              </div>
+              <div class="quiz-option" style="opacity: 0.6;">
+                Harsh &amp; Hostile
+              </div>
+            </div>
+
+            <div style="display: flex; gap: 8px; justify-content: center; margin-top: 10px;">
+              <span style="font-size: 11px; color: var(--text-muted); font-weight: 600;">⚡ 14.4M ms tracking active</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="floating-reward">
+          <div class="check-icon">✓</div>
+          <div>
+            <div style="font-size: 12px; font-weight: 800; color: #FFF;">Payout Successful!</div>
+            <div style="font-size: 11px; color: var(--accent-green); font-weight: 700;">₹ 100 / $ 10 Sent Instantly</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Live Coin-to-Cash Interactive Calculator -->
+  <section class="calculator-section" id="calculator">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Interactive Estimator</span>
+        <h2 class="section-title">Coin-to-Cash Live Calculator</h2>
+        <p class="section-desc">Drag the slider to see how your study time and Roze Coins convert into real local cash and gift card vouchers.</p>
+      </div>
+
+      <div class="calc-box">
+        <div class="calc-controls">
+          <h3 style="font-size: 20px; font-weight: 800; margin-bottom: 8px;">Select Your Target Coins:</h3>
+          <p style="font-size: 13px; color: var(--text-secondary); margin-bottom: 20px;">Move the slider from 1,000 to 500,000+ Roze Coins:</p>
+
+          <div class="calc-slider-wrap">
+            <div class="calc-slider-header">
+              <span class="calc-slider-label">Coin Balance:</span>
+              <div class="calc-coin-val">
+                <img src="assets/roze_coin.png" alt="Roze Coin">
+                <span id="calcCoinDisplay">30,000</span>
+              </div>
+            </div>
+            <input type="range" min="3500" max="500000" step="500" value="30000" class="coin-range" id="coinSlider">
+          </div>
+
+          <div style="margin-top: 24px;">
+            <span class="calc-slider-label">Choose Your Payout Currency:</span>
+            <div class="calc-currency-select">
+              <button class="calc-curr-btn active" data-curr="INR">🇮🇳 INR (₹)</button>
+              <button class="calc-curr-btn" data-curr="USD">🇺🇸 USD ($)</button>
+              <button class="calc-curr-btn" data-curr="GBP">🇬🇧 GBP (£)</button>
+              <button class="calc-curr-btn" data-curr="EUR">🇪🇺 EUR (€)</button>
+              <button class="calc-curr-btn" data-curr="JPY">🇯🇵 JPY (¥)</button>
+              <button class="calc-curr-btn" data-curr="AED">🇦🇪 AED</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="calc-result-card">
+          <div class="calc-result-label">Guaranteed Payout Value</div>
+          <div class="calc-result-val" id="calcPayoutDisplay">₹ 100</div>
+          <div class="calc-result-method" id="calcMethodDisplay">
+            UPI / Flipkart Direct Payout
+          </div>
+          <p style="font-size: 12px; color: var(--text-muted); margin-top: 16px;">
+            100% genuine rates straight from our live app backend. Verified &amp; delivered within 24-48 business hours.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Deep Feature Showcase -->
+  <section class="features-section" id="features">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Core Features</span>
+        <h2 class="section-title">A Serious Learning System With Real Rewards</h2>
+        <p class="section-desc">Designed with proven gamification mechanics, strict anti-cheat verification, and genuine payout guarantees.</p>
+      </div>
+
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon-wrap">📚</div>
+          <h3 class="feature-title">Grammar &amp; Sentence Mastery</h3>
+          <p class="feature-desc">Hundreds of structured modules covering English tenses, prepositions, active/passive voice, and clauses. Instant explanations turn mistakes into learning milestones.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon-wrap">🔥</div>
+          <h3 class="feature-title">4-Hour Daily Habit Engine</h3>
+          <p class="feature-desc">Engineered for discipline. Accumulate 14,400,000 ms of active screen engagement each day with smart 90-second inactivity pause to unlock mystery streak multipliers.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon-wrap">🎙️</div>
+          <h3 class="feature-title">Interactive Speaking Coach</h3>
+          <p class="feature-desc">Train your natural accent and pronunciation with real-time audio recognition feedback. Speak real-world conversational sentences with full confidence.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon-wrap">🧠</div>
+          <h3 class="feature-title">Spaced Repetition Vocabulary</h3>
+          <p class="feature-desc">Scientific interval reviews ensure words stick in your long-term memory. Over 10,000+ curated words with audio pronunciations, definitions, and contextual examples.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon-wrap">🏆</div>
+          <h3 class="feature-title">3D Pixar Avatar Profiles</h3>
+          <p class="feature-desc">Express your personality with 11 custom 3D Pixar-style avatars. Climb the weekly global rankings and showcase your mastery to thousands of international peers.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon-wrap">👥</div>
+          <h3 class="feature-title">Refer &amp; Earn Together</h3>
+          <p class="feature-desc">Share your personal invite code. Both you and your friend receive an instant 100-coin bonus the moment they finish their first quiz.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon-wrap">🎁</div>
+          <h3 class="feature-title">100 Welcome Bonus Coins</h3>
+          <p class="feature-desc">Sign in with Google and claim your 100-coin first login bonus modal directly inside the app with zero deposit or initial fees required.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon-wrap">⚡</div>
+          <h3 class="feature-title">24-48h Verified Payouts</h3>
+          <p class="feature-desc">Firebase-backed integrity checks guarantee rapid, verified delivery. When approved, a real-time celebratory payout popup notifies you immediately in the app.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Global Leaderboard Preview -->
+  <section class="leaderboard-section" id="leaderboard">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Top Performers</span>
+        <h2 class="section-title">Weekly Global Leaderboard</h2>
+        <p class="section-desc">See the highest-scoring students from across the globe practicing daily and claiming top-tier rewards.</p>
+      </div>
+
+      <div class="leaderboard-grid">
+        <div class="leader-card">
+          <div class="leader-left">
+            <div class="leader-rank rank-1">1</div>
+            <img src="assets/p1.webp" alt="Avatar 1" class="leader-avatar">
+            <div>
+              <div class="leader-name">Aarav Patel 🇮🇳</div>
+              <div class="leader-level">Level 28 • 45 Day Streak</div>
+            </div>
+          </div>
+          <div class="leader-coins">
+            <img src="assets/roze_coin.png" alt="Coin">
+            <span>482,000</span>
+          </div>
+        </div>
+
+        <div class="leader-card">
+          <div class="leader-left">
+            <div class="leader-rank rank-2">2</div>
+            <img src="assets/p2.webp" alt="Avatar 2" class="leader-avatar">
+            <div>
+              <div class="leader-name">Emily Watson 🇺🇸</div>
+              <div class="leader-level">Level 26 • 38 Day Streak</div>
+            </div>
+          </div>
+          <div class="leader-coins">
+            <img src="assets/roze_coin.png" alt="Coin">
+            <span>394,500</span>
+          </div>
+        </div>
+
+        <div class="leader-card">
+          <div class="leader-left">
+            <div class="leader-rank rank-3">3</div>
+            <img src="assets/p3.webp" alt="Avatar 3" class="leader-avatar">
+            <div>
+              <div class="leader-name">Kenji Takahashi 🇯🇵</div>
+              <div class="leader-level">Level 24 • 31 Day Streak</div>
+            </div>
+          </div>
+          <div class="leader-coins">
+            <img src="assets/roze_coin.png" alt="Coin">
+            <span>341,000</span>
+          </div>
+        </div>
+
+        <div class="leader-card">
+          <div class="leader-left">
+            <div class="leader-rank rank-other">4</div>
+            <img src="assets/p4.webp" alt="Avatar 4" class="leader-avatar">
+            <div>
+              <div class="leader-name">Lucas Schmidt 🇩🇪</div>
+              <div class="leader-level">Level 21 • 25 Day Streak</div>
+            </div>
+          </div>
+          <div class="leader-coins">
+            <img src="assets/roze_coin.png" alt="Coin">
+            <span>285,000</span>
+          </div>
+        </div>
+
+        <div class="leader-card">
+          <div class="leader-left">
+            <div class="leader-rank rank-other">5</div>
+            <img src="assets/p5.webp" alt="Avatar 5" class="leader-avatar">
+            <div>
+              <div class="leader-name">Ji-woo Park 🇰🇷</div>
+              <div class="leader-level">Level 19 • 22 Day Streak</div>
+            </div>
+          </div>
+          <div class="leader-coins">
+            <img src="assets/roze_coin.png" alt="Coin">
+            <span>240,000</span>
+          </div>
+        </div>
+
+        <div class="leader-card">
+          <div class="leader-left">
+            <div class="leader-rank rank-other">6</div>
+            <img src="assets/p6.webp" alt="Avatar 6" class="leader-avatar">
+            <div>
+              <div class="leader-name">Zainab Al-Mansoori 🇦🇪</div>
+              <div class="leader-level">Level 18 • 19 Day Streak</div>
+            </div>
+          </div>
+          <div class="leader-coins">
+            <img src="assets/roze_coin.png" alt="Coin">
+            <span>212,500</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Rewards Catalog Showcase -->
+  <section class="rewards-section" id="rewards">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Redeem Options</span>
+        <h2 class="section-title">Genuine Rewards In Your Local Currency</h2>
+        <p class="section-desc">Zero fake placeholders. All options, coin thresholds, and denominations match the live KRRoseX app code 100%.</p>
+      </div>
+
+      <div class="rewards-tabs">
+        <button class="tab-btn active" data-country="all">All Rewards</button>
+        <button class="tab-btn" data-country="india">🇮🇳 India (INR)</button>
+        <button class="tab-btn" data-country="dollar">🇺🇸 🇨🇦 🇦🇺 Dollar Countries (USD)</button>
+        <button class="tab-btn" data-country="uk">🇬🇧 United Kingdom (GBP)</button>
+        <button class="tab-btn" data-country="eu">🇪🇺 European Union (EUR)</button>
+        <button class="tab-btn" data-country="asia">🇯🇵 🇰🇷 🇸🇬 🇦🇪 Asia &amp; Middle East</button>
+      </div>
+
+      <div class="rewards-grid">
+        <!-- UPI (India) -->
+        <div class="reward-card" data-region="india">
+          <div class="reward-logo-wrap">
+            <img src="assets/payout_upi.png" alt="UPI Instant Transfer">
+          </div>
+          <h3 class="reward-name">UPI Instant Transfer</h3>
+          <p class="reward-desc">Direct bank credit to any valid UPI ID (GPay, PhonePe, Paytm, BHIM). Instant celebration upon approval.</p>
+          <div class="reward-badge">₹ 10 (3.5k) • ₹ 25 (8k) • ₹ 50 (15.5k) • ₹ 100 (30k)</div>
+        </div>
+
+        <!-- Flipkart Gift Card (India) -->
+        <div class="reward-card" data-region="india">
+          <div class="reward-logo-wrap">
+            <img src="assets/payout_flipkart.png" alt="Flipkart Gift Card">
+          </div>
+          <h3 class="reward-name">Flipkart Gift Card</h3>
+          <p class="reward-desc">Shop electronics, books, and fashion on Flipkart with digital PIN voucher codes delivered to your inbox.</p>
+          <div class="reward-badge">₹ 25 (8k) • ₹ 50 (15.5k) • ₹ 100 (30k) • ₹ 250 (70k)</div>
+        </div>
+
+        <!-- Google Play Store (Dollar Countries) -->
+        <div class="reward-card" data-region="dollar all">
+          <div class="reward-logo-wrap">
+            <img src="assets/payout_google_play.png" alt="Google Play Gift Card">
+          </div>
+          <h3 class="reward-name">Google Play Gift Card</h3>
+          <p class="reward-desc">Redeem digital Play balance for games, premium apps, audiobooks, and subscriptions worldwide.</p>
+          <div class="reward-badge">$ 25 (140k) • $ 50 (260k) • $ 100 (500k) • $ 250 (1.2M)</div>
+        </div>
+
+        <!-- Apple Gift Card (Dollar Countries) -->
+        <div class="reward-card" data-region="dollar all">
+          <div class="reward-logo-wrap">
+            <img src="assets/payout_apple.png" alt="Apple Gift Card">
+          </div>
+          <h3 class="reward-name">Apple Gift Card</h3>
+          <p class="reward-desc">Official Apple Store code valid for App Store apps, games, Apple Music, iCloud+, and hardware products.</p>
+          <div class="reward-badge">$ 10 (60k) • $ 20 (120k) • $ 40 (230k) • $ 100 (500k)</div>
+        </div>
+
+        <!-- Starbucks Gift Card (Dollar Countries) -->
+        <div class="reward-card" data-region="dollar all">
+          <div class="reward-logo-wrap">
+            <img src="assets/payout_starbucks.png" alt="Starbucks Gift Card">
+          </div>
+          <h3 class="reward-name">Starbucks Gift Card</h3>
+          <p class="reward-desc">Enjoy artisanal coffee, cold brews, teas, and delicious bakery items at any participating Starbucks store.</p>
+          <div class="reward-badge">$ 15 (90k) • $ 30 (160k) • $ 60 (300k) • $ 100 (500k)</div>
+        </div>
+
+        <!-- Amazon Gift Card (Dollar Countries) -->
+        <div class="reward-card" data-region="dollar all">
+          <div class="reward-logo-wrap">
+            <img src="assets/payout_amazon.png" alt="Amazon Gift Card">
+          </div>
+          <h3 class="reward-name">Amazon Gift Card (USD)</h3>
+          <p class="reward-desc">Shop millions of genuine products on Amazon with claim codes delivered directly to your verified email address.</p>
+          <div class="reward-badge">$ 1 (6k) • $ 5 (28k) • $ 10 (54k) • $ 25 (130k)</div>
+        </div>
+
+        <!-- Amazon UK -->
+        <div class="reward-card" data-region="uk all">
+          <div class="reward-logo-wrap">
+            <img src="assets/payout_amazon.png" alt="Amazon UK Voucher">
+          </div>
+          <h3 class="reward-name">Amazon UK E-Voucher</h3>
+          <p class="reward-desc">Direct British Pound redemption for Amazon.co.uk deliveries across England, Scotland, Wales, and Northern Ireland.</p>
+          <div class="reward-badge">£ 1 (7.5k) • £ 5 (35k) • £ 10 (68k) • £ 25 (165k)</div>
+        </div>
+
+        <!-- Amazon Europe -->
+        <div class="reward-card" data-region="eu all">
+          <div class="reward-logo-wrap">
+            <img src="assets/payout_amazon.png" alt="Amazon Europe Voucher">
+          </div>
+          <h3 class="reward-name">Amazon Europe (EUR)</h3>
+          <p class="reward-desc">EUR digital claim codes for Amazon DE, FR, IT, ES, and other European Union member countries.</p>
+          <div class="reward-badge">€ 1 (6.5k) • € 5 (31k) • € 10 (60k) • € 25 (145k)</div>
+        </div>
+
+        <!-- Amazon Asia / Middle East -->
+        <div class="reward-card" data-region="asia all">
+          <div class="reward-logo-wrap">
+            <img src="assets/payout_amazon.png" alt="Amazon Global Vouchers">
+          </div>
+          <h3 class="reward-name">Amazon Asia &amp; Middle East</h3>
+          <p class="reward-desc">Tailored localized gift card redemption for Japan (JPY), South Korea (KRW), Singapore (SGD), and UAE (AED).</p>
+          <div class="reward-badge">¥ 150 (6k) • ₩ 1.3k (6k) • 5 AED (8.5k) • S$ 1 (4.8k)</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- How It Works Steps -->
+  <section class="how-section" id="how-it-works">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Simple Process</span>
+        <h2 class="section-title">How To Start Earning in 4 Easy Steps</h2>
+        <p class="section-desc">Zero upfront fees, 100% free educational curriculum, and no hidden requirements.</p>
+      </div>
+
+      <div class="steps-grid">
+        <div class="step-card">
+          <div class="step-number">1</div>
+          <h3 class="step-title">Sign In &amp; Claim 100 Coins</h3>
+          <p class="step-desc">Sign in securely with your Google account, choose your country, and claim your instant 100 welcome coins popup.</p>
+        </div>
+
+        <div class="step-card">
+          <div class="step-number">2</div>
+          <h3 class="step-title">Solve Grammar &amp; Speaking Drills</h3>
+          <p class="step-desc">Solve bite-sized English quizzes, test your accent, and learn daily high-frequency words to collect Roze Coins.</p>
+        </div>
+
+        <div class="step-card">
+          <div class="step-number">3</div>
+          <h3 class="step-title">Maintain Your 4-Hour Streak</h3>
+          <p class="step-desc">Achieve 4 hours of cumulative active learning time per day to preserve your streak fire 🔥 and multiply weekly rewards.</p>
+        </div>
+
+        <div class="step-card">
+          <div class="step-number">4</div>
+          <h3 class="step-title">Instant Cash &amp; Voucher Delivery</h3>
+          <p class="step-desc">Choose UPI, Google Play, Apple, Amazon, or Starbucks. Payouts are verified and sent within 24 to 48 business hours!</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="testimonials-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">User Reviews</span>
+        <h2 class="section-title">Loved by Students Worldwide</h2>
+        <p class="section-desc">Real stories from dedicated English learners who study daily and redeem genuine prizes.</p>
+      </div>
+
+      <div class="testimonials-grid">
+        <div class="testimonial-card">
+          <p class="test-text">
+            "KRRoseX made grammar exciting! The 4-hour streak keeps me disciplined every day. I've already redeemed two ₹100 UPI transfers directly to my PhonePe within 24 hours. 100% genuine!"
+          </p>
+          <div class="test-user">
+            <img src="assets/p7.webp" alt="Avatar 7" class="test-avatar">
+            <div>
+              <div class="test-name">Rohan Mehta 🇮🇳</div>
+              <div class="test-country">College Student, Mumbai</div>
+              <div class="test-stars">★★★★★</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <p class="test-text">
+            "I love the 3D avatars and the clean dark interface! Earning $25 Google Play gift cards while improving my business English vocabulary is the best pair programming with my studies."
+          </p>
+          <div class="test-user">
+            <img src="assets/p8.webp" alt="Avatar 8" class="test-avatar">
+            <div>
+              <div class="test-name">Jessica Miller 🇺🇸</div>
+              <div class="test-country">Software Intern, Austin</div>
+              <div class="test-stars">★★★★★</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <p class="test-text">
+            "The pronunciation coach is surprisingly accurate. Redeemed a $15 Starbucks gift card and grabbed coffee while reviewing my vocabulary deck. Highly recommended for all ESL students!"
+          </p>
+          <div class="test-user">
+            <img src="assets/p9.webp" alt="Avatar 9" class="test-avatar">
+            <div>
+              <div class="test-name">Lucas Dubois 🇨🇦</div>
+              <div class="test-country">ESL Learner, Toronto</div>
+              <div class="test-stars">★★★★★</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Comprehensive FAQ Section -->
+  <section class="faq-section" id="faq">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Got Questions?</span>
+        <h2 class="section-title">Frequently Asked Questions</h2>
+        <p class="section-desc">Clear answers regarding coin mechanics, payout verifications, eligibility, and data privacy.</p>
+      </div>
+
+      <div class="faq-list">
+        <div class="faq-item">
+          <div class="faq-question">
+            <span>Is KRRoseX 100% free to use?</span>
+            <span class="faq-toggle-icon">+</span>
+          </div>
+          <div class="faq-answer">
+            Yes! KRRoseX is completely free to download and use. We never request bank card details, deposits, registration fees, or mandatory paid subscriptions. All learning modules and reward redemptions are funded purely by our educational partners and platform sponsors.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question">
+            <span>How do I claim my 100 welcome bonus coins?</span>
+            <span class="faq-toggle-icon">+</span>
+          </div>
+          <div class="faq-answer">
+            When you launch the app and sign in with Google for the first time, a "First Login Reward" modal automatically appears. Simply tap "Claim 100 Coins" to have them credited to your wallet instantly!
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question">
+            <span>How does the 4-Hour Daily Streak goal work?</span>
+            <span class="faq-toggle-icon">+</span>
+          </div>
+          <div class="faq-answer">
+            To build genuine language proficiency, our habit tracking engine measures your cumulative daily active screen time (14,400,000 milliseconds). If you remain idle for more than 90 seconds, tracking pauses automatically so only focused practice counts towards your streak fire 🔥.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question">
+            <span>How long does it take to receive payouts?</span>
+            <span class="faq-toggle-icon">+</span>
+          </div>
+          <div class="faq-answer">
+            To prevent fraud and maintain platform fairness, redemption requests are audited and verified within 24 to 48 business hours. The moment your payout is marked successful in our system, you will receive an in-app celebration popup and your code or UPI transfer is delivered immediately.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question">
+            <span>Can I use VPNs, emulators, or multiple accounts?</span>
+            <span class="faq-toggle-icon">+</span>
+          </div>
+          <div class="faq-answer">
+            No. To protect genuine learners, our automated security engine strictly prohibits Android emulators (BlueStacks, Nox), macros, bots, cloned accounts, and VPN location spoofing. Violators face permanent account suspension and coin forfeiture under our Terms and Conditions.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question">
+            <span>Which countries and currencies are supported?</span>
+            <span class="faq-toggle-icon">+</span>
+          </div>
+          <div class="faq-answer">
+            KRRoseX is an international platform! Dedicated payout currencies and localized cards are active for India (INR), the United States, Canada, and Australia (USD/CAD/AUD), the United Kingdom (GBP), European Union (EUR), Japan (JPY), South Korea (KRW), UAE (AED), Singapore (SGD), and Switzerland (CHF).
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question">
+            <span>How can I delete my account and personal data?</span>
+            <span class="faq-toggle-icon">+</span>
+          </div>
+          <div class="faq-answer">
+            We adhere strictly to Google Play's User Data &amp; Account Deletion Policy, GDPR, and DPDP Act 2023. You can request deletion directly in the app under Settings &gt; Delete Account, or submit an online request via our <a href="delete-account.html" style="color: var(--primary);">Account Deletion Web Portal</a>. All data is purged within 7 business days.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question">
+            <span>How does the referral bonus program work?</span>
+            <span class="faq-toggle-icon">+</span>
+          </div>
+          <div class="faq-answer">
+            Every learner receives a unique referral code. When a friend joins using your code and completes their first quiz, both you and your friend receive an instant 100-coin bonus in your wallets!
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Banner -->
+  <section class="cta-banner">
+    <div class="container">
+      <div class="cta-box">
+        <h2 class="cta-title">Start Mastering English &amp; Earning Today</h2>
+        <p class="cta-desc">Join 50,000+ motivated learners turning daily screen time into real academic skills and verified gift cards.</p>
+        <div style="display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;">
+          <a href="#download" class="btn-primary">Download KRRoseX on Google Play</a>
+          <a href="https://t.me/rosexlearnearn" target="_blank" rel="noopener" class="btn-secondary">Join Official Telegram (+50 Coins)</a>
+        </div>
+
+        <!-- Trust Badges -->
+        <div class="trust-bar">
+          <div class="trust-badge-item">
+            <span>🛡️</span> Google Play Safe &amp; Verified
+          </div>
+          <div class="trust-badge-item">
+            <span>🔒</span> 256-Bit SSL Cloud Encryption
+          </div>
+          <div class="trust-badge-item">
+            <span>⚖️</span> GDPR, CCPA &amp; DPDP Compliant
+          </div>
+          <div class="trust-badge-item">
+            <span>⚡</span> 24-48h Verified Payouts
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <div class="logo-wrapper" style="margin-bottom: 16px;">
+            <img src="assets/logo.png" alt="KRRoseX Logo" class="logo-img">
+            <span class="logo-text">ROSE<span>X</span></span>
+          </div>
+          <p style="color: var(--text-secondary); margin-bottom: 16px; font-size: 14px; line-height: 1.6;">
+            The premier gamified English learning platform that rewards consistency, discipline, and academic progress with verified global payouts.
+          </p>
+          <p style="font-size: 13px; color: var(--text-muted);">
+            Official Support: <a href="mailto:support@krrosex.com" style="color: var(--primary); text-decoration: none;">support@krrosex.com</a>
+          </p>
+        </div>
+
+        <div class="footer-col">
+          <h4>Navigation</h4>
+          <ul>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#calculator">Coin Calculator</a></li>
+            <li><a href="#rewards">Payouts &amp; Rewards</a></li>
+            <li><a href="#leaderboard">Global Leaderboard</a></li>
+            <li><a href="#how-it-works">How It Works</a></li>
+            <li><a href="#faq">Frequently Asked Questions</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Legal &amp; Policy</h4>
+          <ul>
+            <li><a href="privacy-policy.html">Privacy Policy (All Countries)</a></li>
+            <li><a href="terms.html">Terms &amp; Conditions</a></li>
+            <li><a href="delete-account.html">Account &amp; Data Deletion</a></li>
+            <li><a href="contact.html">Grievance Officer &amp; Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Official Community</h4>
+          <ul>
+            <li><a href="https://t.me/rosexlearnearn" target="_blank" rel="noopener">Telegram Community (@rosexlearnearn)</a></li>
+            <li><a href="contact.html">Help Desk &amp; Inquiries</a></li>
+            <li><a href="mailto:support@krrosex.com">support@krrosex.com</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>
+          &copy; 2026 KRRoseX. All rights reserved.
+        </div>
+        <div style="font-size: 12px; color: var(--text-muted);">
+          Google Play and Android are trademarks of Google LLC. Amazon, Apple, Starbucks, and Flipkart are trademarks of their respective owners.
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
